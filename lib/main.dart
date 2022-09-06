@@ -23,7 +23,7 @@ void main() async {
   runApp(
     // Riverpod でデータを受け渡しが可能な状態にするために必要
     const ProviderScope(
-      child: MyApp(),
+      child: ChatApp(),
     ),
   );
 }
