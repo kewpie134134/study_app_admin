@@ -1,7 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:study_app_admin/chat_app.dart';
+import 'package:study_app_admin/admin_app.dart';
 import 'config/config.dart';
 
 // Firebase のシークレット情報を取得
@@ -15,7 +15,6 @@ void main() async {
     apiKey: configurations.apiKey,
     authDomain: configurations.authDomain,
     projectId: configurations.projectId,
-    // storageBucket: configurations.storageBucket, // なぜか動かない？
     messagingSenderId: configurations.messagingSenderId,
     appId: configurations.appId,
     measurementId: configurations.measurementId,
@@ -23,7 +22,8 @@ void main() async {
   runApp(
     // Riverpod でデータを受け渡しが可能な状態にするために必要
     const ProviderScope(
-      child: ChatApp(),
+      // child: ChatApp(), // チャットアプリ
+      child: AdminApp(), // Admin アプリ
     ),
   );
 }
