@@ -2,8 +2,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:study_app_admin/pages/add_post.dart';
-import 'package:study_app_admin/pages/login.dart';
+import 'package:study_app_admin/pages/chat/add_post.dart';
+import 'package:study_app_admin/pages/chat/login.dart';
 import 'package:study_app_admin/provider/chat.dart';
 
 // ConsumerWidget で Provider から値を受け渡す

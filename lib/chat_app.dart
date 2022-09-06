@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:study_app_admin/pages/login.dart';
+import 'package:study_app_admin/pages/chat/login.dart';
 
 class ChatApp extends StatelessWidget {
   const ChatApp({Key? key}) : super(key: key);

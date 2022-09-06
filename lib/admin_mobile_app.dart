@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:study_app_admin/pages/admin_mobile.dart';
+import 'package:study_app_admin/pages/chat/admin_mobile.dart';
 
 class AdminApp extends StatelessWidget {
   const AdminApp({Key? key}) : super(key: key);

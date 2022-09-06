@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:study_app_admin/pages/chat.dart';
+import 'package:study_app_admin/pages/chat/chat.dart';
 import 'package:study_app_admin/provider/chat.dart';
 
 // ConsumerWidget を使うと build() からデータを受け取ることができる
