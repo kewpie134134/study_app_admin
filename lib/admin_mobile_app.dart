@@ -9,7 +9,10 @@ class AdminApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData.light(),
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        fontFamily: "NotoSansJP",
+      ),
       home: const AdminMobilePage(),
     );
   }

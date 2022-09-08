@@ -10,6 +10,7 @@ class ChatApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        fontFamily: "NotoSansJP",
       ),
       home: const LoginPage(),
     );
